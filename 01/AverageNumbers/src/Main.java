@@ -12,5 +12,6 @@ public class Main {
         System.out.println ( "Enter third number number:" );
         double number3 = Double.parseDouble ( bufferedReader.readLine ( ) );
         System.out.println ( (number1 + number2 + number3) / 3 );
+        bufferedReader.close ( );
     }
 }
